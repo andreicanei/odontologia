@@ -1,0 +1,197 @@
+<nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mecânica Unisoft</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">A Empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Final do topo-->
+    <div class="container">
+        <div class="row mt-5">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="foto-01.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="foto-02.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="foto-03.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div> <!--Fim sessão de fotos-->
+        <div class="row mt-5">
+            <div class="col-lg-6 col-12">
+                <h2>Mecânica Unisoft</h2>
+                <p>Nossa mecânica utiliza equipamento de ultima geração e conta com profissionais qualificados para a
+                    realização de diagnosticos do sistemas eletronicos e mecanicos de veículos. <br>
+                    O objetivo do nosso atendimento é que o cliente fique 100% satisfeito com nossos serviços, por que
+                    só recomendamos o que realmente precisa de manutenção. Valorizamos a ética, transparencia e clareza
+                    em primeiro lugar em nosso atendimento. </p>
+            </div>
+            <div class="col-lg-6 col-12">
+                <img class="img-fluid" src="foto-04.jpg" alt="">
+            </div>
+        </div> <!--Fim sessão inicio-->
+        <div class="row mt-5">
+            <h2 class="text-center mb-5">
+                A empresa
+            </h2>
+            <div class="col-lg-6 col-12">
+                <h2>Atuamos no setor diagnósticos eletronicos e reparos mecânicos há mais de 25 anos </h2>
+                <p>Primando sempre pelo aperfeiçoamento constante dos colaboradores e pela utilização da ultima geração,
+                    construímos uma marca consolidada no mercado automotivo, nos tornando referencia pelo padrão de
+                    qualidade ue oferecemos aos nossos clientes <br>
+                    Atuamos com uma gama muito ampla de serviços de manutenção de veículos nacionais e importados.
+                    Buscamos sempre a solução mais inteligente com foco no essencial.</p>
+            </div>
+            <div class="col-lg-6 col-12">
+                <img class="img-fluid" src="foto-05.jpg" alt="">
+            </div>
+        </div> <!--Fim sessão empresa-->
+        <div class="row mt-5">
+            <h2 class="text-center mb-5">
+                Nossos Serviços
+            </h2>
+            <div class="col-lg-4 col-md-6 col-12 mb-5">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="serviços/foto-01-embreagem.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sistema de embreagem</h5>
+                        <p class="card-text">A embreagem faz parte do sistema de transmissão do veículo, e é responsável por transferir a força para a caixa de câmbio.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-5">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="serviços/foto-02-Revisão completa de sistema de freio.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Revisão completa de sistema de freio </h5>
+                        <p class="card-text">Esse procedimento visa identificar o estado das peças do sistema de frenagem.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-5">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="serviços/foto-03-Revisão completa do sistema de suspenção.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Revisão completa do sistema de suspenção</h5>
+                        <p class="card-text">Uma boa revisão da suspensão do carro é primordial para manter o veículo sempre em ordem.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-5">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="serviços/foto-04-Manutenção e higienização do ar condicionado.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Manutenção e higienização do ar condicionado </h5>
+                        <p class="card-text">A recomendação geral é que se faça limpeza do ar-condicionado automotivo a cada seis meses.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-5">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="serviços/foto-05-Troca do kit de correia dentada.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Troca do kit de correia dentada</h5>
+                        <p class="card-text">Para quem ainda não sabe qual é a funcionalidade da correia dentada. é simcronizar o virabrequim.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-5">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="serviços/foto-06-Troca de óleo e filtros.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Troca de óleo e filtros </h5>
+                        <p class="card-text">Pode parecer uma bobagem, mas a troca de óleo é um dos procedimentos mais importantes para a vida útil do motor.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-5">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="serviços/foto-07-Troca de óleo do câmbio automatico.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Troca de óleo do câmbio automatico</h5>
+                        <p class="card-text">A troca de óleo no câmbio automático ainda não é uma rotina de manutenção para muitos condutores.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-5">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="serviços/foto-08-Reparo em câmbio automatizado.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Reparo em câmbio automatizado</h5>
+                        <p class="card-text">A recuperação do câmbio automático visa a preservação do carro, viabilizando longevidade ao veículo.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-5">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="serviços/foto-09-Revisão reventiva.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Revisão reventiva </h5>
+                        <p class="card-text">A revisão preventiva corrige as falhas e os problemas antes que eles ocorram. assim, reduz os custos e aumenta a eficiência da manutenção.</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div> <!--Nada pode ir depois disso-->
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-lg-6 col-12">
+                <h2> </h2>
+                <p>Primando sempre pelo aperfeiçoamento constante dos colaboradores e pela utilização da ultima geração,
+                    construímos uma marca consolidada no mercado automotivo, nos tornando referencia pelo padrão de
+                    qualidade ue oferecemos aos nossos clientes <br>
+                    Atuamos com uma gama muito ampla de serviços de manutenção de veículos nacionais e importados.
+                    Buscamos sempre a solução mais inteligente com foco no essencial.</p>
+            </div>
